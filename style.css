@@ -5,28 +5,7 @@
 html {
     scroll-behavior: smooth;
 }
-header{
-    background-image: url("images/pexels-photo-301920.webp");
-    background-position: center;
-    background-attachment: no-repeat;
-    background-size: cover;
-}
-.navbar{
-    padding:1% 10%;
-    background-color: rgba(0,0,0,0.3);
-}
-.navbar-icon{
-    color: rgb(206, 24, 182);
-}
-.navbar-brand img{
-    width: 70%;
-    height: auto;
-    border: 2px solid rgb(49, 46, 41);
-    border-radius: 10px;
-    padding: 0px 5px;
-
-    
-}
+ /*banner section*/
 
 body {
     /* font-family: 'Handlee', cursive;*/
@@ -75,6 +54,9 @@ body {
     border-radius: 1px;
     color: white;
 }
+ /*End-banner section*/
+
+  /* start-donate section*/
 .donate{
     
     background-size: cover;
@@ -136,9 +118,9 @@ body {
     width: 150px;
     height: 100px;
 }
+/* end-donate section*/
 
-
-
+/* start-amount(middle) section*/
 .amount-value {
     border: 2px solid red;
     background-color: lightcoral;
@@ -210,6 +192,10 @@ body {
 .past-color {
     color: rgb(43, 12, 12);
 }
+
+/* end-amount section*/
+
+
 .donate-box2 {
     display: flex;
     align-items: center;
@@ -326,6 +312,8 @@ section {
     border-radius: 10%;
     padding-right: 10%;
 }
+/* getmy update- section*/
+
 .update {
     text-align: center;
     margin-top: 20px;
@@ -375,6 +363,9 @@ section {
     top:240%;
 
 }
+/* end getmy update- section*/
+
+/* start-footer section*/
 footer {
     display: flex;
     padding: 3% 50%;
