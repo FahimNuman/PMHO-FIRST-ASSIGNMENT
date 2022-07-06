@@ -77,7 +77,7 @@ body {
     top:150%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-transform: uppercase;
+    text-transform: uppercase lowercase;
     margin-bottom: 150px;
     font-family: 'Poppins', sans-serif;
 
@@ -159,7 +159,7 @@ body {
     top: 240%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-transform: uppercase;
+    text-transform: uppercase lowercase;
     margin-bottom: 150px;
     font-family: 'Poppins', sans-serif;
 
@@ -291,7 +291,7 @@ p {
     top: 240%;
     left: 50%;
     transform: translate(-50%, -50%);
-    text-transform: uppercase;
+    text-transform: uppercase lowercase;
     margin-bottom: 150px;
     font-family: 'Poppins', sans-serif;
 
