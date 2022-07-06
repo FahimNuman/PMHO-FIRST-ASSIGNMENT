@@ -5,6 +5,28 @@
 html {
     scroll-behavior: smooth;
 }
+header{
+    background-image: url("images/pexels-photo-301920.webp");
+    background-position: center;
+    background-attachment: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    padding:1% 10%;
+    background-color: rgba(0,0,0,0.3);
+}
+.navbar-icon{
+    color: rgb(206, 24, 182);
+}
+.navbar-brand img{
+    width: 70%;
+    height: auto;
+    border: 2px solid rgb(49, 46, 41);
+    border-radius: 10px;
+    padding: 0px 5px;
+
+    
+}
 
 body {
     /* font-family: 'Handlee', cursive;*/
@@ -35,12 +57,12 @@ body {
 .banner-content h1
  {
     color: #fff;
-        font-size: 45px;
+        font-size: 65px;
         letter-spacing: 0px;
 
 }
 .white{
-    color:#fff;
+    color:rgb(241, 209, 209);
 }
 .white-color{
     color: rgb(250, 250, 250);
@@ -48,7 +70,7 @@ body {
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(rgb(201, 27, 149),rgb(133, 22, 41));
-    padding: 5px 10px;
+    padding: 9px 40px;
     font-weight: 60px;
     border-radius: 1px;
     color: white;
@@ -115,10 +137,7 @@ body {
     height: 100px;
 }
 
-.donate-tk h2 {
-    text-align: center;
-    padding: 8px;
-}
+
 
 .amount-value {
     border: 2px solid red;
@@ -134,4 +153,241 @@ body {
 }
 .input-div{
     text-align: center;
+}
+
+.donate-plan {
+
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.donate-plan p {
+    color: rgb(19, 6, 6);
+    font-size: 15px;
+    letter-spacing: 0px;
+    padding: center;
+
+}
+
+.our-donate-plane {
+
+    position: absolute;
+    top: 240%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    margin-bottom: 150px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.our-donate-plane {
+    overflow: hidden;
+    background-position: center;
+    background-attachment: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.donate-plan h1 {
+    color: rgb(22, 21, 21);
+    font-size: 55px;
+    letter-spacing: 0px;
+
+}
+.donate-plan p{
+    text-align: center;
+}
+
+.past {
+    color: rgb(136, 63, 63);
+}
+
+.past-color {
+    color: rgb(43, 12, 12);
+}
+.donate-box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 150px;
+
+}
+.donate-plan1 {
+    margin-left: 20px;
+    background-color: bisque;
+    width: 300px;
+    height: 340px;
+}
+
+.donate-plan1 img {
+    margin-left: 5px;
+    margin-top: 10px;
+
+}
+
+.donate-plan1 h2,
+p {
+    text-align: left;
+    padding-left: 20px;
+
+}
+.donate-plan2 {
+    margin-left: 20px;
+        background-color: rgb(187, 224, 226);
+        width: 300px;
+        height: 340px;
+}
+
+.donate-plan2 img {
+    margin-left: 15px;
+    margin-top: 30px;
+
+}
+
+.donate-plan2 h2,
+p {
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+.donate-plan3 {
+    margin-left: 20px;
+    background-color: rgb(240, 233, 154);
+    width: 300px;
+    height: 340px;
+}
+
+.donate-plan3 img {
+    margin-left: 15px;
+    margin-top: 30px;
+
+}
+
+.donate-plan3 h2,
+p {
+    text-align: left;
+    padding-left: 20px;
+
+}
+.our-donate-plane {
+
+    position: absolute;
+    top: 240%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    margin-bottom: 150px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.h1 {
+    font-size: 50px;
+}
+.people-area {
+    
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width {
+    left:50%;
+    display:flex;
+    width: 40%;
+    float: right ;
+    margin-left: 5%;
+    padding-left: 20%;
+}
+.half-width-content p{
+
+    font-size: 150%;
+    padding: right;
+    padding-left: 10%;
+    border-radius: 2550%;
+    font-family: 'Poppins', sans-serif;
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+.half-width-content h2 {
+    font-size: 50px;
+    padding-left: 14%;
+    font-family: 'Poppins', sans-serif;
+}
+.half-width img {
+    height: 400px;
+    width: 78%;
+    border-radius: 10%;
+    padding-right: 10%;
+}
+.update {
+    text-align: center;
+    margin-top: 20px;
+    width: 700px;
+    height: 400px;
+}
+
+.update p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.update-form {
+
+    background-color: bisque;
+    padding: 90px 20px;
+
+}
+
+.update-form input[type=email] {
+    background-color: rgb(222, 230, 230);
+    border: 2px solid rgb(235, 240, 240);
+    padding:20px 35px;
+
+
+}
+
+.update-form input[type=submit] {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(255, 0, 255);
+    border: 1px solid rgb(228, 140, 109);
+    padding: 20px 35px;
+
+}
+.subscribe-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 190px;
+
+}
+.update h1{
+
+    font-size: 60px;
+    top:240%;
+
+}
+footer {
+    display: flex;
+    padding: 3% 50%;
+    background: #000a0c;
+    color:aliceblue;
+    font-family: 'Lobster', cursive;
+}
+.footer-part-2{
+
+        float:right ;
+        display: flex;
+        padding: 0% 60%;
+        background: #000a0c;
+        color: aliceblue;
+        font-family: 'Lobster', cursive;
 }
