@@ -29,7 +29,7 @@ body {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        text-transform: uppercase;
+        text-transform: uppercase lowercase;
         margin-bottom: 150px;
 
 }
@@ -48,10 +48,10 @@ body {
 }
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(rgb(201, 27, 149),rgb(133, 22, 41));
-    padding: 9px 40px;
+    background-image: linear-gradient(rgb(175, 71, 144),rgb(194, 84, 102));
+    padding: 15px 40px;
     font-weight: 60px;
-    border-radius: 1px;
+    border-radius: 6px;
     color: white;
 }
  /*End-banner section*/
